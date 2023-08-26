@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0 auto;
+}
+.container {
+    background-color: aquamarine;
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+.container > div >img {
+    width: 80px; 
+    height: 80px;
+    float: left;
+}
+.container > .logo {
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.navigasi {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: flex-end;
+    /* border: 2px solid black;
+    border-radius: 5px; */
+    flex-wrap: wrap;
+
+}
+.navigasi > div {
+    padding: 10px;
+    font-size: 30px;
+    border-left: 2px solid black ;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+
+}
+.navigasi > div:last-child {
+    border-right: 2px solid black;
+}
+.navigasi > div > a{
+    text-decoration: none;
+    color: black;
+}
+.konten_1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+    width: 1366px;
+    height: 578px;
+    justify-content: center;
+}
+.isi_konten_1 {
+    width: 80%;
+    padding: 20px;
+    background-color: aqua;
+    /* justify-content: center; */
+}
