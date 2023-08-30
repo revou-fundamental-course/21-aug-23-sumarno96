@@ -68,6 +68,7 @@ nav li:hover, nav li:focus {
     background-color: #fd5f00;
 }
  main {
+    margin: 0;
     width: 90%;
     max-width: 1366px;
     margin: 0 auto;
@@ -75,12 +76,18 @@ nav li:hover, nav li:focus {
 .konten-pertama {
     height: 578px;
 }
+.konten-pertama img {
+    height: 500px;
+    width: 100%;
+}
 .konten-kedua {
     height: 200px;
+    box-sizing: content-box;
 }
 .konten-kedua div  {
     display: flex;
     margin-left: 20px;
+    justify-content: center;
 }
 .jenis-layanan img {
     height: 80px;
@@ -88,9 +95,43 @@ nav li:hover, nav li:focus {
     background-color: #f1f6f9;
     border-radius: 20px;
 }
+.jenis-layanan h4 {
+    color: whitesmoke;
+    padding-left: 20px;
+}
 .konten-ketiga {
     height: 300px;
+    display: flex;
+    flex-direction: column;
   }
+.message-us {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=text], input[type=date], textarea {
+    width: 90%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.send-message {
+    flex: 1;
+}
+fieldset {
+    flex: 2;
+}
+footer {
+    background-color: #05004e;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: 2px 2px 10px #f1f6f9;
+}
 @media (max-width: 600px) {
     .container {
         text-align: center;
@@ -107,7 +148,13 @@ nav li:hover, nav li:focus {
     nav li {
         border: 2px solid beige;
         border-radius: 10px;
-        margin: 2px 0;
+        margin: 2px 0;       
+    }
+    .message-us {
+        flex-direction: column;
+    }
+    .konten-kedua div {
+        flex-direction: column;
     }
 }
   

@@ -26,19 +26,22 @@
     <main>
         <div class="konten-pertama">
             <p>hallo ini konten pertama</p>
+            <div class="gambargeser">
+                <img src="gambar/pemandangan.jpg" alt="ini gambar pemandangan">
+            </div>
         </div>
         <div class="konten-kedua">
             <h1>LAYANAN YANG DISEDIAKAN</h1>
             <div class="jenis-layanan">
-                <div class="layanan1 layanan">
+                <div class="layanan1">
                     <img src="gambar/gambar1.jpg" alt="layanan pertama"/><br/>
                     <h4>Kualitas Video sudah 4k</h4>
                 </div>
-                <div class="layanan2 layana">
+                <div class="layanan2">
                     <img src="gambar/gambar2.jpg" alt="layanan Kedua"/>
                     <h4>Update Tercepat</h4>
                 </div>
-                <div class="layanan3 layanan">
+                <div class="layanan3">
                     <img src="gambar/gambar3.jpg" alt="layanan ketiga"/>
                     <h4>..Masih Mikir..</h4>
                 </div>
@@ -47,32 +50,55 @@
         <div class="konten-ketiga">
             <h1>MESSAGE US</h1>
             <p>hallo ini konten ketiga</p>
-            <tabel class="send-message">
-                <tr>
-                    <td>Nama</td>
-                    <td><input required type="text" name="nama" placeholder="Masukkan Nama"></td>
-                </tr>
-                <tr>
-                    <td>Tanggal Lahir</td>
-                    <td><input required type="date" name="tglLahir"></td>
-                </tr>
-                <tr>
-                    <td>Jenis Kelamin </td>
-                    <td>: <input required type="radio" name="jk" value="Pria"
-                         >Pria
-            
-                        <input required type="radio" name="jk" value="wanita"
-                        >Wanita</td>
-                </tr>
-                <tr>
-                    <td>Pesan</td>
-                    <td><textarea name="textarea"></textarea></td>
-                </tr>
-            </tabel>
+            <div class="message-us">
+                <table class="send-message">
+                    <tr>
+                        <td>Nama</td>
+                        <td><input required type="text" name="nama" placeholder="Masukkan Nama"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td><input required type="date" name="tglLahir"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin </td>
+                        <td><input required type="radio" name="jk" value="Pria"
+                            >Pria
+                
+                            <input required type="radio" name="jk" value="wanita"
+                            >Wanita</td>
+                    </tr>
+                    <tr>
+                        <td>Pesan</td>
+                        <td><textarea name="textarea"></textarea></td>
+                    </tr>
+                </table>
+                <fieldset>
+                <legend>| Message |</legend> 
+                    <table class="show-message">
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal Lahir</td>
+                            <td>: </td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Kelamin </td>
+                            <td>:</td>
+                        </tr>
+                        <tr>
+                            <td>Pesan</td>
+                            <td>:</td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
         </div>
-        <footer>
-            <p>created by:Hamba Allah</p>
-        </footer>
     </main>
+    <footer>
+        <p>created by:Hamba Allah</p>
+    </footer>
 </body>
 </html>
