@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
     <header>
@@ -47,9 +47,31 @@
         <div class="konten-ketiga">
             <h1>MESSAGE US</h1>
             <p>hallo ini konten ketiga</p>
+            <tabel class="send-message">
+                <tr>
+                    <td>Nama</td>
+                    <td><input required type="text" name="nama" placeholder="Masukkan Nama"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td><input required type="date" name="tglLahir"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin </td>
+                    <td>: <input required type="radio" name="jk" value="Pria"
+                         >Pria
+            
+                        <input required type="radio" name="jk" value="wanita"
+                        >Wanita</td>
+                </tr>
+                <tr>
+                    <td>Pesan</td>
+                    <td><textarea name="textarea"></textarea></td>
+                </tr>
+            </tabel>
         </div>
         <footer>
-            <p>created by:Hamba Allah SAW</p>
+            <p>created by:Hamba Allah</p>
         </footer>
     </main>
 </body>
