@@ -81,8 +81,7 @@ nav li:hover, nav li:focus {
     width: 100%;
 }
 .konten-kedua {
-    height: 200px;
-    box-sizing: content-box;
+    
 }
 .konten-kedua div  {
     display: flex;
@@ -100,7 +99,6 @@ nav li:hover, nav li:focus {
     padding-left: 20px;
 }
 .konten-ketiga {
-    height: 300px;
     display: flex;
     flex-direction: column;
   }
